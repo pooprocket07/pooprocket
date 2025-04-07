@@ -1,6 +1,7 @@
 import React from 'react';
 import { Twitter, MessageCircle } from 'lucide-react';
 
+// Updated component without newsletter section
 const CommunitySection = () => {
   // Social media links data
   const socialLinks = [
