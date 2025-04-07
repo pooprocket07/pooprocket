@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const AboutSection = () => {
@@ -19,7 +18,7 @@ const AboutSection = () => {
           <div className="flex justify-center">
             <div className="relative">
               <img 
-                src="https://raw.githubusercontent.com/pooprocket07/pooprocket/refs/heads/master/asset/logo.png" 
+                src="/assets/logo.png"
                 alt="Poop Rocket" 
                 className="w-40 h-40 md:w-64 md:h-64 animate-bounce-slow"
               />

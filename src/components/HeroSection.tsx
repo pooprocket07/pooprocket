@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 
@@ -69,7 +68,7 @@ const HeroSection = () => {
       <div className={`absolute bottom-0 left-1/2 transform -translate-x-1/2 z-30 transition-all duration-300 ${isLaunched ? 'animate-rocket-fly' : 'animate-float'}`}>
         <div className="relative">
           <img 
-            src="https://raw.githubusercontent.com/pooprocket07/pooprocket/refs/heads/master/asset/logo.png" 
+            src="/assets/logo.png"
             alt="Poop Rocket" 
             className="w-28 h-28 md:w-40 md:h-40"
           />

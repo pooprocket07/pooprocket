@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <div className="flex items-center">
               <img 
-                src="https://raw.githubusercontent.com/pooprocket07/pooprocket/refs/heads/master/asset/logo.png" 
+                src="/assets/logo.png"
                 alt="Poop Rocket Logo" 
                 className="h-12 mr-3" 
               />

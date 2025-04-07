@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -26,7 +25,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center">
           <img 
-            src="https://raw.githubusercontent.com/pooprocket07/pooprocket/refs/heads/master/asset/logo.png" 
+            src="/assets/logo.png"
             alt="Poop Rocket Logo" 
             className="h-12 mr-3" 
           />
