@@ -51,21 +51,9 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 pt-6 mt-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <p className="text-gray-500 text-sm mb-4 md:mb-0">
+            <p className="text-gray-500 text-sm">
               &copy; {new Date().getFullYear()} Poop Rocket ($PROCK). All rights reserved.
             </p>
-            
-            <div className="flex space-x-6">
-              <a href="#" className="text-gray-500 hover:text-prock-neon text-sm">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-gray-500 hover:text-prock-neon text-sm">
-                Terms of Service
-              </a>
-              <a href="#" className="text-gray-500 hover:text-prock-neon text-sm">
-                Disclaimer
-              </a>
-            </div>
           </div>
           
           <div className="text-center mt-6">
