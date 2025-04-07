@@ -1,6 +1,14 @@
 import React from 'react';
 
 const Footer = () => {
+  const scrollToContract = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const contractSection = document.getElementById('contract');
+    if (contractSection) {
+      contractSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <footer className="bg-space-darker py-12">
       <div className="container mx-auto px-4">
@@ -24,7 +32,7 @@ const Footer = () => {
               <h4 className="text-white font-bold mb-4">Resources</h4>
               <ul className="space-y-2">
                 <li><a href="#" className="text-gray-400 hover:text-prock-neon">Whitepaper</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-prock-neon">Contract</a></li>
+                <li><a href="#contract" onClick={scrollToContract} className="text-gray-400 hover:text-prock-neon">Contract</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-prock-neon">Audit</a></li>
               </ul>
             </div>

@@ -16,7 +16,7 @@ const ContractSection = () => {
   };
 
   return (
-    <section className="py-16 bg-space-darker relative">
+    <section className="py-16 bg-space-darker relative" id="contract">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-1/4 w-64 h-64 bg-prock-pink opacity-5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-prock-neon opacity-5 rounded-full blur-3xl"></div>
