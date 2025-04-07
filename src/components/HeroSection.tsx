@@ -65,7 +65,7 @@ const HeroSection = () => {
       </div>
 
       {/* Animated rocket */}
-      <div className={`fixed left-1/2 transform -translate-x-1/2 z-30 transition-all duration-300 ${isLaunched ? 'animate-rocket-fly bottom-0' : 'bottom-8 md:bottom-12 animate-float'}`}>
+      <div className={`absolute bottom-0 left-0 right-0 mx-auto w-fit z-30 transition-all duration-300 ${isLaunched ? 'animate-rocket-fly' : 'animate-float'}`}>
         <div className="relative">
           <img 
             src="/assets/logo.png"
