@@ -1,5 +1,5 @@
 import React from 'react';
-import { Twitter, MessageCircle, Github } from 'lucide-react';
+import { Twitter, MessageCircle } from 'lucide-react';
 
 const CommunitySection = () => {
   // Social media links data
@@ -19,14 +19,6 @@ const CommunitySection = () => {
       color: "bg-gradient-to-br from-blue-500 to-blue-600",
       label: "Join our Telegram",
       emoji: "💬"
-    },
-    {
-      name: "Discord",
-      icon: Github, // Using Github as a substitute for Discord in lucide-react
-      url: "#",
-      color: "bg-gradient-to-br from-indigo-500 to-purple-600",
-      label: "Join our Discord",
-      emoji: "🎮"
     }
   ];
 
@@ -51,7 +43,7 @@ const CommunitySection = () => {
         </div>
         
         {/* Social Media Links */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {socialLinks.map((social, index) => {
             const Icon = social.icon;
             
