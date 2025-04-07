@@ -32,8 +32,8 @@ const Footer = () => {
             <div>
               <h4 className="text-white font-bold mb-4">Community</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-prock-neon">Twitter</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-prock-neon">Telegram</a></li>
+                <li><a href="https://x.com/PoopRocket07" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-prock-neon">Twitter</a></li>
+                <li><a href="https://t.me/poop_rocket" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-prock-neon">Telegram</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-prock-neon">Discord</a></li>
               </ul>
             </div>

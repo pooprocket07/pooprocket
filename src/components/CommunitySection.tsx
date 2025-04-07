@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Twitter, MessageCircle, Github } from 'lucide-react';
 
@@ -8,7 +7,7 @@ const CommunitySection = () => {
     {
       name: "Twitter",
       icon: Twitter,
-      url: "#",
+      url: "https://x.com/PoopRocket07",
       color: "bg-gradient-to-br from-blue-400 to-blue-500",
       label: "Follow us on Twitter",
       emoji: "🐦"
@@ -16,7 +15,7 @@ const CommunitySection = () => {
     {
       name: "Telegram",
       icon: MessageCircle,
-      url: "#",
+      url: "https://t.me/poop_rocket",
       color: "bg-gradient-to-br from-blue-500 to-blue-600",
       label: "Join our Telegram",
       emoji: "💬"
