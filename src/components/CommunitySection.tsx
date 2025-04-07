@@ -76,32 +76,6 @@ const CommunitySection = () => {
             );
           })}
         </div>
-        
-        {/* Newsletter Subscription */}
-        <div className="max-w-2xl mx-auto mt-16 p-8 rounded-xl bg-space-darker border border-gray-800">
-          <h3 className="text-2xl font-bold mb-4 text-white text-center">
-            Get $PROCK Updates 📬
-          </h3>
-          
-          <p className="text-gray-300 mb-6 text-center">
-            Stay up to date with the latest news, memes, and updates from the $PROCK team.
-          </p>
-          
-          <form className="flex flex-col md:flex-row gap-4">
-            <input 
-              type="email" 
-              placeholder="Your email address" 
-              className="flex-grow px-4 py-3 rounded-lg bg-space-dark border border-gray-700 focus:outline-none focus:ring-2 focus:ring-prock-neon text-white"
-              required
-            />
-            <button 
-              type="submit"
-              className="px-6 py-3 rounded-lg bg-gradient-to-r from-prock-neon to-green-400 text-space-dark font-bold hover:shadow-[0_0_15px_rgba(57,255,20,0.4)] transition-all whitespace-nowrap"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
       </div>
     </section>
   );
