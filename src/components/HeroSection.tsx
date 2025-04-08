@@ -57,10 +57,15 @@ const HeroSection = () => {
             <span className="ml-2 transition-transform group-hover:rotate-45 inline-block">🚀</span>
           </button>
           
-          <button className="cta-button secondary-button group">
+          <a 
+            href="https://dexscreener.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="cta-button secondary-button group"
+          >
             View Chart 
             <span className="ml-2">📈</span>
-          </button>
+          </a>
         </div>
       </div>
 
