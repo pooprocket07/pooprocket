@@ -55,7 +55,7 @@ const Footer = () => {
             <div className="col-span-2 md:col-span-1">
               <h4 className="text-white font-bold mb-4">Trading</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-prock-neon">SOLSCAN</a></li>
+                <li><a href="https://solscan.io/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-prock-neon">SOLSCAN</a></li>
                 <li><a href="https://dexscreener.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-prock-neon">Chart</a></li>
               </ul>
             </div>
