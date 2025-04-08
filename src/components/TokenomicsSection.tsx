@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { 
   PieChart, 
@@ -73,7 +72,7 @@ const TokenomicsSection = () => {
             
             <div className="text-center mt-4">
               <p className="text-lg text-gray-300">
-                Total Supply: <span className="font-bold text-white">1,000,000,000,000 $PROCK</span>
+                Total Supply: <span className="font-bold text-white">1,000,000,000 $PROCK</span>
               </p>
               <p className="text-prock-neon mt-2">
                 1% tax on all transactions - 0.5% to liquidity, 0.5% to marketing
