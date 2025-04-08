@@ -49,13 +49,15 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
-          <button 
-            onClick={handleLaunch}
+          <a 
+            href="https://raydium.io/swap/" 
+            target="_blank" 
+            rel="noopener noreferrer"
             className="cta-button primary-button group"
           >
             Buy $PROCK Now 
             <span className="ml-2 transition-transform group-hover:rotate-45 inline-block">🚀</span>
-          </button>
+          </a>
           
           <a 
             href="https://dexscreener.com/" 
