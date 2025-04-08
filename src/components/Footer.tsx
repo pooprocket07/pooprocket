@@ -41,7 +41,6 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li><a href="#about" onClick={scrollToAbout} className="text-gray-400 hover:text-prock-neon">Whitepaper</a></li>
                 <li><a href="#contract" onClick={scrollToContract} className="text-gray-400 hover:text-prock-neon">Contract</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-prock-neon">Audit</a></li>
               </ul>
             </div>
             
