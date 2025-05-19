@@ -39,7 +39,7 @@ const Navbar = () => {
           <a href="#roadmap" className="text-white hover:text-prock-neon transition-colors">Roadmap</a>
           <a href="#community" className="text-white hover:text-prock-neon transition-colors">Community</a>
           <a 
-            href="https://raydium.io/swap/" 
+            href="https://pump.fun/coin/5Nr2cd5YvM9PXGeqUiUbLQea1eZuNhWzF4azCJzpump" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-6 py-2 rounded-full bg-gradient-to-r from-prock-neon to-green-400 text-space-dark font-bold hover:shadow-[0_0_15px_rgba(57,255,20,0.6)] transition-all"
@@ -90,7 +90,7 @@ const Navbar = () => {
               Community
             </a>
             <a 
-              href="https://raydium.io/swap/" 
+              href="https://pump.fun/coin/5Nr2cd5YvM9PXGeqUiUbLQea1eZuNhWzF4azCJzpump" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-full bg-gradient-to-r from-prock-neon to-green-400 text-space-dark font-bold text-center"
