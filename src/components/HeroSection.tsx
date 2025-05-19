@@ -50,7 +50,7 @@ const HeroSection = () => {
         
         <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
           <a 
-            href="https://raydium.io/swap/" 
+            href="https://pump.fun/coin/5Nr2cd5YvM9PXGeqUiUbLQea1eZuNhWzF4azCJzpump" 
             target="_blank" 
             rel="noopener noreferrer"
             className="cta-button primary-button group"
@@ -60,7 +60,7 @@ const HeroSection = () => {
           </a>
           
           <a 
-            href="https://dexscreener.com/" 
+            href="https://pump.fun/coin/5Nr2cd5YvM9PXGeqUiUbLQea1eZuNhWzF4azCJzpump" 
             target="_blank" 
             rel="noopener noreferrer"
             className="cta-button secondary-button group"
