@@ -3,7 +3,7 @@ import { Copy, Check } from 'lucide-react';
 
 const ContractSection = () => {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "0x000000000000000000000000000002ewqEaD"; // Replace with actual contract address
+  const contractAddress = "5Nr2cd5YvM9PXGeqUiUbLQea1eZuNhWzF4azCJzpump"; // Replace with actual contract address
 
   const copyToClipboard = async () => {
     try {
